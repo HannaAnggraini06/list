@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Makanan Indonesia</string>
+
+    <string name="name">Nama</string>
+    <string name="desc">Deskripsi</string>
+    <string name="listt">List</string>
+    <string name="grid">Grid</string>
+    <string name="list">List Makanan</string>
+    <string name="about">About</string>
+    <string name="display">Daerah</string>
+    <string name="sejarah">Sejarah</string>
+
+    <string name="aboutme">Hai, Im from major of Informatic Engineering</string>
+    <string name="content_domisili">Depok</string>
+    <string name="content_email">hannaanggraini0610@gmail.com</string>
+    <string name="content_link">www.linkedin.com/in/hanna-anggraini-2706b723b</string>
+    <string name="myname">Hanna Anggraini</string>
+    <string name="about_me">About Me</string>
+    <string name="domisili">Domisili</string>
+    <string name="phone">No Telpon</string>
+    <string name="email">Email</string>
+    <string name="link">Linkedin</string>
+
+
+    <string-array name="data_name">
+        <item>Ayam Bakar Taliwang</item>
+        <item>Rawon</item>
+        <item>Soto Lamongan</item>
+        <item>Liwetan</item>
+        <item>Gudeg</item>
+        <item>Karedok</item>
+        <item>Sate Madura</item>
+        <item>Bakso Urat</item>
+        <item>Papeda Kuah Kuning</item>
+        <item>Rendang</item>
+    </string-array>
+
+    <string-array name="data_desc">
+        <item>Ayam taliwang adalah makanan khas Lombok, Nusa Tenggara Barat yang terbuat dari ayam kampung muda yang dibakar dan diberi bumbu khas.</item>
+        <item>Rawon adalah salah satu makanan khas Indonesia yang terkenal, terutama di daerah Jawa Timur. Rawon merupakan semacam sup atau hidangan berkuah gurih yang memiliki warna hitam pekat.</item>
+        <item>Soto Lamongan adalah soto ayam khas Kabupaten Lamongan, Jawa Timur yang memiliki ciri khas kuah berwarna kuning bening dan taburan koya udang. Soto ini memiliki rasa gurih dan khas karena bumbunya yang halus, seperti bawang putih, ketumbar sangria, merica, kemiri sangrai, dan kunyit. </item>
+        <item>Nasi liwet adalah makanan tradisional Indonesia yang khas dari Jawa Tengah dan Jawa Barat. Nasi liwet memiliki ciri khas dimasak dengan santan, kaldu ayam, daun salam, serai, dan rempah-rempah. </item>
+        <item>Gudeg adalah masakan khas Yogyakarta yang terbuat dari nangka muda yang dimasak dengan santan, gula merah, dan daun jati.</item>
+        <item>Karedok adalah makanan khas Sunda yang terbuat dari sayuran mentah yang disiram dengan bumbu kacang</item>
+        <item>Sate Madura adalah makanan khas yang terbuat dari daging ayam mentah yang dipotong kecil-kecil, dibakar, dan disiram dengan bumbu kacang</item>
+        <item>Bakso urat adalah bakso yang terbuat dari daging urat sapi atau tetelan yang dihaluskan dan dicampur dengan tepung.</item>
+        <item>Papeda kuah kuning adalah makanan khas Maluku yang terbuat dari bubur sagu dan ikan kuah kuning. Papeda kuah kuning memiliki ciri khas rasa ikan yang manis dan kuah yang gurih.</item>
+        <item>Rendang adalah masakan khas Minangkabau, Sumatera Barat yang terbuat dari daging, santan, dan berbagai rempah-rempah</item>
+    </string-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/ayam</item>
+        <item>@drawable/rawon</item>
+        <item>@drawable/soto</item>
+        <item>@drawable/liwetan</item>
+        <item>@drawable/gudeg</item>
+        <item>@drawable/karedok  </item>
+        <item>@drawable/sate</item>
+        <item>@drawable/bakso</item>
+        <item>@drawable/papeda</item>
+        <item>@drawable/rendang</item>
+    </integer-array>
+
+    <string name="title">Ayam Bakar Taliwang</string>
+    <string name="content_text">Ayam taliwang adalah makanan khas Lombok, Nusa Tenggara Barat yang terbuat dari ayam kampung muda yang dibakar dan diberi bumbu khas.</string>
+    <string name="content_display">Lombok</string>
+    <string name="content_sejarah">Ayam bakar taliwang berasal dari komunitas Karang Taliwang, yang didirikan oleh masyarakat Taliwang, Kabupaten Sumbawa Barat, setelah Kerajaan Selaparang diserang oleh Kerajaan Karangasem, Bali. </string>
+
+</resources>
