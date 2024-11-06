@@ -1,6 +1,7 @@
 package com.example.list
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
@@ -19,7 +20,6 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
         setContentView(R.layout.activity_main)
 
         rvMakanan = findViewById(R.id.rv_makanan)
@@ -66,7 +66,11 @@ class MainActivity : AppCompatActivity() {
 
         listMakananAdapter.setOnItemClickCallback(object  : ListMakananAdapter.OnItemClickCallback {
             override fun onItemClicked(data: Makanan) {
-                showSelectedMakanan(data)
+                val intent = Intent(this@MainActivity, Detail::class.java)
+                intent.putExtra(Detail.KEY_NAME, data.name)
+                intent.putExtra(Detail.KEY_DESC, data.desc)
+                intent.putExtra(Detail.KEY_IMAGE, data.photo)
+                startActivity(intent)
             }
         })
     }
